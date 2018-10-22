@@ -1,0 +1,182 @@
+/*    Container            */
+.container{
+  width: 80%;
+  margin: auto;
+  background-color: #d2d2de;
+}
+/*  Clear Float problem          */
+.clr{
+clear: both;
+}
+
+/*      Header                         */
+header{
+  width : 100%;
+  border: 1px solid #999;
+  background-color: #7183aa;
+  height: 40px;
+
+}
+/*   Lien Générale          */
+
+a{
+  text-decoration: None;
+  color: #162543;
+}
+
+/*          les List                    */
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+/*       Les lien                      */
+
+nav ul li a{
+
+ display: block;
+}
+
+/*     Hover Sur les Lien          */
+
+nav ul li a:hover{
+ background-color: #00ffff;
+}
+
+/*                Logo                 */
+#logo{
+  width: 20%;
+  height: 90%;
+  display: inline;
+  margin-top: 5px;
+}
+header p{
+
+  display: inline;
+  text-align: : center;
+  font-Weight: 700;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-top: 2px 2px;
+  color:#fff;
+}
+.lo{
+color: #ff3333;
+font-weight: 900;
+font-size: 32px;
+
+}
+
+/*         Navigation List                             */
+nav{
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+}
+nav ul li {
+  margin-left: 5px;
+  float: left;
+  width: 100px;
+  height: 25px ;
+  color:#fff;
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: center;
+
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover  ul li{
+  display: block;
+}
+
+/*                      Main Area                                           */
+.Main{
+  height: 580px;
+}
+.list-music{
+  float: left;
+  width: 25%;
+  border: 1px solid #000;
+  height:100%;
+}
+
+.list-music li {
+
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-top: 15px;
+  margin-left: 15px;
+  color: #000000;
+
+}
+
+.list-music li a {
+
+  padding: 10px 5px;
+  color: #000000;
+  text-align: center;
+
+}
+
+.list-music li:hover a {
+
+  background-color: #3f88d1;
+  display: block;
+  color: #55f1a3;
+
+}
+
+.music{
+  float: right;
+  width: 70%;
+}
+
+.video video{
+width: 80%;
+height: 200px;
+margin-left:  15px;
+margin-top: 15px;
+
+}
+
+.video h1{
+  text-align: center;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.box{
+  float: left;
+  border: 1px solid #000;
+  width: 25%;
+  margin-top: 30px;
+  background-color: #0a296b;
+  margin-left: 12px;
+}
+.box p{
+  text-align: center;
+}
+.box a{
+
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #90abe6;
+
+
+}
+.box img{
+  width: 100%;
+}
+footer{
+  background-color: #092d60;
+  height: 60px;
+  text-align: center;
+
+}
